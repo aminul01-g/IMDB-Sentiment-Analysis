@@ -1,6 +1,6 @@
 # IMDB Sentiment Analysis (Research-Focused)
 
-## 💖 Abstract
+## Abstract
 This project investigates sentiment classification on the **IMDB Movie Reviews dataset**, a widely used benchmark for natural language processing (NLP) tasks. The primary objective is to build and evaluate machine learning models that classify reviews as **positive** or **negative**, and to analyze their effectiveness using both traditional and modern approaches.
 
 ---
@@ -21,7 +21,7 @@ Preprocessing steps include:
 
 ---
 
-## 🧠 Methodology
+## Methodology
 We experimented with both **traditional machine learning** and **deep learning** methods:
 
 1. **Baseline Models**
@@ -85,5 +85,5 @@ We experimented with both **traditional machine learning** and **deep learning**
 ---
 
 ## 👌 Acknowledgments
-This project was developed as part of **Module 13: IMDB Sentiment Analysis** in the AI/ML learning journey. Special thanks to the open-source community for providing tools and datasets that enabled this research.
+This project was developed as part of **IMDB Sentiment Analysis** in the AI/ML learning journey. Special thanks to the open-source community for providing tools and datasets that enabled this research.
 
