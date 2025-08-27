@@ -41,7 +41,6 @@ We experimented with both **traditional machine learning** and **deep learning**
 4. **Evaluation Metrics**
    - Accuracy  
    - Precision, Recall, F1-Score  
-   - Confusion Matrix  
 
 ---
 
@@ -51,30 +50,13 @@ We experimented with both **traditional machine learning** and **deep learning**
 
 | Method                  | Accuracy | Precision | Recall | F1-Score |
 |-------------------------|----------|-----------|--------|----------|
-| Logistic Regression (TF-IDF) | 88%     | 0.88      | 0.88   | 0.88     |
-| SVM (TF-IDF)            | 89%     | 0.89      | 0.89   | 0.89     |
-| LSTM (Word Embeddings)  | 91%     | 0.91      | 0.91   | 0.91     |
-| BERT (CLS Embeddings)   | 93%     | 0.93      | 0.93   | 0.93     |
+| BERT (CLS) + LR (Test) | 81%     | 0.82      | 0.80   | 0.81     |
+| BERT (CLS) + LR (Val)           | 81%     | 0.82      | 0.80   | 0.81     |
+| TF–IDF + LR (Test)  | 88%     | 0.88      | 0.89   | 0.89     |
+| TF–IDF + LR (Val)  | 89%     | 0.88      | 0.90   | 0.89     |
+| Word2Vec + LR (Test)   | 85%     | 0.85      | 0.84   | 0.85     |
+| Word2Vec + LR (Val)   | 86%     | 0.86      | 0.87   | 0.86     |
 
-> *Note: Replace numbers with actual metrics from your notebook.*
-
----
-
-### Visualizations
-
-**1️⃣ Accuracy & Loss Curves**  
-![Accuracy and Loss](./artifacts/accuracy_loss_plot.png)  
-> *Line charts showing training/validation accuracy and loss per epoch.*
-
-**2️⃣ Confusion Matrix (Best Model)**  
-![Confusion Matrix](./artifacts/confusion_matrix.png)  
-> *Displays true positives, true negatives, false positives, and false negatives.*
-
-**3️⃣ Error Analysis**
-- Misclassified examples often involve:
-  - Mixed or nuanced sentiment: `"Great performances but a dull script"`  
-  - Sarcasm or humor  
-  - Domain-specific references (actors, genres)  
 
 ---
 
@@ -94,20 +76,6 @@ We experimented with both **traditional machine learning** and **deep learning**
 
 ---
 
-## 📁 File Structure (Optional)
-```
-Module13_IMDB_Sentiment/
-│
-├─ Module13_IMDB_Sentiment_<YourName>.ipynb
-├─ README.md
-├─ artifacts/
-│   ├─ accuracy_loss_plot.png
-│   └─ confusion_matrix.png
-└─ requirements.txt
-```
-> Replace `artifacts/*.png` with actual plots generated from your notebook.
-
----
 
 ## 📍 References
 - Maas, A. L., et al. (2011). *Learning Word Vectors for Sentiment Analysis*. ACL.  
